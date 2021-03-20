@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Hind Madurai;
+    margin: 0px;
+    padding: 20px; /*for smaller devices so the content is not up against the container*/
+}
+
+.container{
+    text-align: center;
+}
+
+
+.image img{
+    width: 200px;
+    text-align: center;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    margin-left: 50px;
+}
+
+.app-text h2{
+    color: #E72218;
+    text-align: center;
+}
+
+.app-text p{
+    text-align: center;
+}
+
+.swap-container{
+    margin-right: 260px;
+}
+
+
+button{
+    color: #E72218;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+
+.currency{
+    display: flex;
+    padding: 40px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency select{
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #E72218;
+    font-size: 16px;
+}
+
+.currency input{
+    border: 0;
+    text-align: right;
+    background: transparent;
+    font-size: 30px;
+}
+
+.swap-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.rate {
+    color: #E72218;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+@media (max-width: 600px){
+    .currency input{
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px){
+    .swap-container{
+        margin-right: 0px;
+    }
+}
